@@ -1,0 +1,142 @@
+body {
+    background-color: #ffffff;
+    font-size: 12px;
+    font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #000000;  
+    margin: 10px;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+a:link, a:visited {
+    color: #045491;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+    color: #045491;
+    font-weight : bold;
+    text-decoration : underline;
+}
+
+.navbar-default-menu {
+    background-color: #0071b1;
+    border-color: #000000;
+}
+
+.navbar-default-menu .navbar-brand {
+    color: #fff;
+}
+.navbar-default-menu .navbar-brand:hover,
+.navbar-default-menu .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+}
+.navbar-default-menu .navbar-text {
+    color: #777;
+}
+.navbar-default-menu .navbar-nav > li > a {
+    color: #fff;
+}
+.navbar-default-menu .navbar-nav > li > a:hover,
+.navbar-default-menu .navbar-nav > li > a:focus {
+    color: #fff;
+    text-decoration: underline;
+    background-color: transparent;
+}
+.navbar-default-menu .navbar-nav > .active > a,
+.navbar-default-menu .navbar-nav > .active > a:hover,
+.navbar-default-menu .navbar-nav > .active > a:focus {
+    color: #0071b1;
+    text-decoration: underline;
+    background-color: #fff;
+}
+.navbar-default-menu .navbar-nav > .disabled > a,
+.navbar-default-menu .navbar-nav > .disabled > a:hover,
+.navbar-default-menu .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-default-menu .navbar-toggle {
+    border-color: #fff;
+}
+.navbar-default-menu .navbar-toggle:hover,
+.navbar-default-menu .navbar-toggle:focus {
+    background-color: transparent;
+}
+.navbar-default-menu .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.navbar-default-menu .navbar-collapse,
+.navbar-default-menu .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-default-menu .navbar-nav > .open > a,
+.navbar-default-menu .navbar-nav > .open > a:hover,
+.navbar-default-menu .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+@media (max-width: 767px) {
+    .navbar-default-menu .navbar-nav .open .dropdown-menu .dropdown-header {
+        color: #fff;
+        font-size: 10px;
+    }
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > li > a {
+        color: #fff;
+    }
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #fff;
+        text-decoration: underline;
+        background-color: transparent;
+    }
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: transparent;
+    }
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-default-menu .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-default-menu .navbar-link {
+    color: #777;
+}
+.navbar-default-menu .navbar-link:hover {
+    color: #333;
+}
+.navbar-default-menu .btn-link {
+    color: #777;
+}
+.navbar-default-menu .btn-link:hover,
+.navbar-default-menu .btn-link:focus {
+    color: #333;
+}
+.navbar-default-menu .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default-menu .btn-link:hover,
+.navbar-default-menu .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default-menu .btn-link:focus {
+    color: #ccc;
+}
+
+.navbar-fixed-top .navbar-fixed-bottom{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 100;
+}
