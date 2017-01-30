@@ -5,7 +5,7 @@ El siguiente proyecto contiene una carpeta llamada "Usuarios", un script de la b
 Usuarios es la carpeta del proyecto (para NetBeans) que tiene por funcionalidad: Crear, Actualizar y eliminar usuarios
 
 ## Script
-Para la base de datos se incluye el script que se necesita en el proyecto.
+Para la base de datos (MySQL) se incluye el script que se necesita en el proyecto.
 
 ## Archivo .war
 Este puede deberá ser desplegado en tomcat
